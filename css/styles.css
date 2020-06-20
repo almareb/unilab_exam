@@ -1,0 +1,65 @@
+/** header **/
+.bg_img_nav {
+	height: 900px;
+	background-image: url(../images/landings.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+}
+.nav_flex{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav_heading{
+	color: #D9F0FF;
+	font-size: 28px;
+	margin: 61px 0 0 68px;
+}
+.nav_ul{
+	margin: 61px 143px 0 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.nav_ul a{
+	text-transform: uppercase;
+	margin-left: 31px;
+	color: #D9F0FF;
+	font-size: 12px;
+}
+h1 {
+	position: absolute;
+	top: 235px;
+	left: 389px;
+	font-size: 100px;
+	color: #fff;
+}
+.button{
+	background-color: #325DFF;
+	border-radius: 36%;
+	width: 307px;
+	height: 72px;
+	border: none;
+	position: absolute;
+	top: 460px;
+	left: 487px;
+}
+.button a{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+}
+/** section 1 **/
+.section_wrapper{
+	display: flex;
+}
+.block{
+	width: 50%;	
+}
+.bg_img_sec{
+	height: 602px;
+	background-image: url(../images/instalation.png);
+	background-repeat: no-repeat;
+}
