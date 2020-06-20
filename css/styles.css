@@ -14,6 +14,7 @@
 	align-items: center;
 }
 .nav_heading{
+	font-family: 'Poppins-Medium';
 	color: #D9F0FF;
 	font-size: 28px;
 	margin: 61px 0 0 68px;
@@ -24,12 +25,14 @@
 	justify-content: flex-end;
 }
 .nav_ul a{
+	font-family: 'Poppins-Medium';
 	text-transform: uppercase;
 	margin-left: 31px;
 	color: #D9F0FF;
 	font-size: 12px;
 }
 h1 {
+	font-family: 'Lato-Light';
 	position: absolute;
 	top: 235px;
 	left: 389px;
@@ -38,7 +41,7 @@ h1 {
 }
 .button{
 	background-color: #325DFF;
-	border-radius: 36%;
+	border-radius: 36px;
 	width: 307px;
 	height: 72px;
 	border: none;
@@ -47,6 +50,7 @@ h1 {
 	left: 487px;
 }
 .button a{
+	font-family: 'Lato-Bold';
 	text-transform: uppercase;
 	font-size: 14px;
 	color: #fff;
@@ -56,10 +60,98 @@ h1 {
 	display: flex;
 }
 .block{
-	width: 50%;	
+	width: 50%;
+	padding: 104px 91px 101px 82px;	
+}
+.block h2{
+	font-family: 'Lato-Light';
+	font-size: 50px;
+	margin-bottom: 36px;
+	width: 468px;
+}
+.block p{
+	font-family: 'Poppins-Regular';
+	font-size: 16px;
+	opacity: 0.5;
+	margin-bottom: 58px;
+	width: 457px;
 }
 .bg_img_sec{
-	height: 602px;
+	height: 601px;
+	width: 50%;
 	background-image: url(../images/instalation.png);
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
+.button_sec{
+	background-color: #325DFF;
+	border-radius: 36px;
+	width: 307px;
+	height: 72px;
+	border: none;
+}
+.button_sec a {
+	font-family: 'Lato-Bold';
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+}
+.bg {
+	background-color: #FAFAFA;
+	padding: 87px 54px 119px 55px;
+}
+.bg h2 {
+	font-family: 'Lato-Light';
+	font-size: 35px;
+	margin-bottom: 23px;
+	text-align: center;
+}
+.bg_p {
+	font-family: 'Poppins-Regular';
+	font-size: 16px;
+	opacity: 0.65;
+	margin:0 0 89px 261px;
+	text-align: center;
+	width: 771px;
+}
+.box_flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box {
+	padding: 67px 72px 54px 76px;
+	width: 250px;
+	border: 0.5px solid #CECECE;
+}
+.box:nth-child(1),
+.box:nth-child(2),
+.box:nth-child(3) {
+	margin-bottom: 25px;
+}
+.box h3 {
+	font-family: 'Lato-Regular';
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 28px;
+}
+.box p {
+	font-family: 'Poppins-Light';
+	font-size: 16px; 
+}
+.icon {
+	background-color: #325DFF;
+	border-radius: 100px;
+	height: 88px;
+	width: 88px;
+	position: relative;
+	margin:0 0 30px 85px;
+}
+.box i{
+	color: #fff;
+	font-size: 32px;
+	position: absolute;
+	top: 35%;
+	left: 32%;
 }
