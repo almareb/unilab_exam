@@ -61,6 +61,7 @@ h1 {
 	left: 487px;
 	z-index: 1;
 }
+button:focus{outline:none}
 .button a{
 	font-family: 'Lato-Bold';
 	text-transform: uppercase;
